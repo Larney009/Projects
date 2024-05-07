@@ -4,8 +4,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from Scrap.scrap import movies_list
 
 
-Token: Final = '7111986900:AAFBQv8Q-egCKsCtJzPrtpylCavVLNCBja8'
-Bot_Username: Final = '@MovieDoorBot'
+Token: Final = 'Token'
+Bot_Username: Final = 'Bot Name'
 
 #Commands
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
